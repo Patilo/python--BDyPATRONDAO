@@ -1,0 +1,148 @@
+04:58:03 PM: ERROR [conexion.py:32] ocurrio un error: invalid dsn: invalid connection option "username"
+
+04:59:08 PM: DEBUG [conexion.py:29] conexion exitosa...
+04:59:08 PM: DEBUG [conexion.py:39]  se obtuvo la conexion: <connection object at 0x7fb886a75970; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+04:59:08 PM: DEBUG [conexion.py:39]  se obtuvo la conexion: <connection object at 0x7fb886a75ac0; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+05:16:54 PM: DEBUG [conexion.py:29] conexion exitosa...
+05:16:54 PM: DEBUG [conexion.py:39]  se obtuvo la conexion: <connection object at 0x7fb2bea75970; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+05:16:54 PM: DEBUG [conexion.py:39]  se obtuvo la conexion: <connection object at 0x7fb2bea75ac0; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+05:18:09 PM: DEBUG [conexion.py:29] conexion exitosa...
+05:18:09 PM: DEBUG [conexion.py:39]  se obtuvo la conexion: <connection object at 0x7faadfa75970; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+05:18:10 PM: DEBUG [conexion.py:39]  se obtuvo la conexion: <connection object at 0x7faadfa75ac0; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+05:18:58 PM: DEBUG [conexion.py:29] conexion exitosa...
+05:18:58 PM: DEBUG [conexion.py:39]  se obtuvo la conexion: <connection object at 0x7f7f9d285970; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+05:18:58 PM: DEBUG [conexion.py:39]  se obtuvo la conexion: <connection object at 0x7f7f9d285ac0; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+05:18:58 PM: DEBUG [conexion.py:45] se ha liberado una conexion: <connection object at 0x7f7f9d285ac0; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+05:18:58 PM: DEBUG [conexion.py:39]  se obtuvo la conexion: <connection object at 0x7f7f9d285ac0; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+10:02:14 PM: DEBUG [cursorPool.py:12] f inicio metodo  __enter__
+10:02:15 PM: DEBUG [conexion.py:35] conexion exitosa...
+10:02:15 PM: DEBUG [conexion.py:45]  se obtuvo la conexion: <connection object at 0x7fc6e126dac0; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+10:02:15 PM: DEBUG [cursorPool.py:32] dentro del with
+10:02:15 PM: DEBUG [cursorPool.py:18] se ejecuta el metodo __exit__
+10:02:15 PM: ERROR [cursorPool.py:21] ocurrio un error: relation "personas" does not exist
+LINE 1: SELECT * FROM Personas
+                      ^
+, <class 'psycopg2.errors.UndefinedTable'>, <traceback object at 0x7fc6e14d5500>
+10:02:15 PM: DEBUG [conexion.py:51] se ha liberado una conexion: <connection object at 0x7fc6e126dac0; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+10:02:35 PM: DEBUG [cursorPool.py:12] f inicio metodo  __enter__
+10:02:35 PM: DEBUG [conexion.py:35] conexion exitosa...
+10:02:35 PM: DEBUG [conexion.py:45]  se obtuvo la conexion: <connection object at 0x7fb11a275ac0; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+10:02:35 PM: DEBUG [cursorPool.py:32] dentro del with
+10:02:35 PM: DEBUG [cursorPool.py:34] [(1, 'nombre1', 'apellido1', 'correo1@correo.com'), (2, 'Pedro', 'Najera', 'pnajera@mail.com'), (3, 'Patilo', 'Carrasco', 'pcarrasco@correo.com'), (4, 'Patilo', 'Carrasco', 'pcarrasco@correo.com'), (5, 'Patilo', 'Carrasco', 'pcarrasco@correo.com'), (6, 'Patilo', 'Carrasco', 'pcarrasco@correo.com'), (7, 'nicole', 'arancibia', 'nicole@correo.com')]
+10:02:35 PM: DEBUG [cursorPool.py:18] se ejecuta el metodo __exit__
+10:02:35 PM: DEBUG [cursorPool.py:24] se hizo un commit
+10:02:35 PM: DEBUG [conexion.py:51] se ha liberado una conexion: <connection object at 0x7fb11a275ac0; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+10:14:50 PM: DEBUG [cursorPool.py:12] f inicio metodo  __enter__
+10:14:50 PM: DEBUG [conexion.py:35] conexion exitosa...
+10:14:50 PM: DEBUG [conexion.py:45]  se obtuvo la conexion: <connection object at 0x7f9481985ac0; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+10:14:50 PM: DEBUG [cursorPool.py:18] se ejecuta el metodo __exit__
+10:14:50 PM: DEBUG [cursorPool.py:24] se hizo un commit
+10:14:50 PM: DEBUG [conexion.py:51] se ha liberado una conexion: <connection object at 0x7f9481985ac0; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+10:14:50 PM: DEBUG [PersonaDao.py:75] 
+            idPersona: 1
+            nombre: nombre1
+            apellido: apellido1
+            correo: correo1@correo.com
+        
+10:14:50 PM: DEBUG [PersonaDao.py:75] 
+            idPersona: 2
+            nombre: Pedro
+            apellido: Najera
+            correo: pnajera@mail.com
+        
+10:14:50 PM: DEBUG [PersonaDao.py:75] 
+            idPersona: 3
+            nombre: Patilo
+            apellido: Carrasco
+            correo: pcarrasco@correo.com
+        
+10:14:50 PM: DEBUG [PersonaDao.py:75] 
+            idPersona: 4
+            nombre: Patilo
+            apellido: Carrasco
+            correo: pcarrasco@correo.com
+        
+10:14:50 PM: DEBUG [PersonaDao.py:75] 
+            idPersona: 5
+            nombre: Patilo
+            apellido: Carrasco
+            correo: pcarrasco@correo.com
+        
+10:14:50 PM: DEBUG [PersonaDao.py:75] 
+            idPersona: 6
+            nombre: Patilo
+            apellido: Carrasco
+            correo: pcarrasco@correo.com
+        
+10:14:50 PM: DEBUG [PersonaDao.py:75] 
+            idPersona: 7
+            nombre: nicole
+            apellido: arancibia
+            correo: nicole@correo.com
+        
+10:17:04 PM: DEBUG [cursorPool.py:12] f inicio metodo  __enter__
+10:17:04 PM: DEBUG [conexion.py:35] conexion exitosa...
+10:17:04 PM: DEBUG [conexion.py:45]  se obtuvo la conexion: <connection object at 0x7f9f29a75ac0; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+10:17:04 PM: DEBUG [PersonaDao.py:49] Persona insertada: 
+            idPersona: None
+            nombre: Carlos
+            apellido: Arancibia
+            correo: carancibia@mail.com
+        
+10:17:04 PM: DEBUG [cursorPool.py:18] se ejecuta el metodo __exit__
+10:17:04 PM: DEBUG [cursorPool.py:24] se hizo un commit
+10:17:04 PM: DEBUG [conexion.py:51] se ha liberado una conexion: <connection object at 0x7f9f29a75ac0; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+10:17:04 PM: DEBUG [PersonaDao.py:75] Personas insertadas: 1
+10:17:04 PM: DEBUG [cursorPool.py:12] f inicio metodo  __enter__
+10:17:04 PM: DEBUG [conexion.py:45]  se obtuvo la conexion: <connection object at 0x7f9f29a75ac0; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+10:17:04 PM: DEBUG [cursorPool.py:18] se ejecuta el metodo __exit__
+10:17:04 PM: DEBUG [cursorPool.py:24] se hizo un commit
+10:17:04 PM: DEBUG [conexion.py:51] se ha liberado una conexion: <connection object at 0x7f9f29a75ac0; dsn: 'user=postgres password=xxx dbname=Proyecto host=127.0.0.1 port=5432', closed: 0>
+10:17:04 PM: DEBUG [PersonaDao.py:80] 
+            idPersona: 1
+            nombre: nombre1
+            apellido: apellido1
+            correo: correo1@correo.com
+        
+10:17:04 PM: DEBUG [PersonaDao.py:80] 
+            idPersona: 2
+            nombre: Pedro
+            apellido: Najera
+            correo: pnajera@mail.com
+        
+10:17:04 PM: DEBUG [PersonaDao.py:80] 
+            idPersona: 3
+            nombre: Patilo
+            apellido: Carrasco
+            correo: pcarrasco@correo.com
+        
+10:17:04 PM: DEBUG [PersonaDao.py:80] 
+            idPersona: 4
+            nombre: Patilo
+            apellido: Carrasco
+            correo: pcarrasco@correo.com
+        
+10:17:04 PM: DEBUG [PersonaDao.py:80] 
+            idPersona: 5
+            nombre: Patilo
+            apellido: Carrasco
+            correo: pcarrasco@correo.com
+        
+10:17:04 PM: DEBUG [PersonaDao.py:80] 
+            idPersona: 6
+            nombre: Patilo
+            apellido: Carrasco
+            correo: pcarrasco@correo.com
+        
+10:17:04 PM: DEBUG [PersonaDao.py:80] 
+            idPersona: 7
+            nombre: nicole
+            apellido: arancibia
+            correo: nicole@correo.com
+        
+10:17:04 PM: DEBUG [PersonaDao.py:80] 
+            idPersona: 8
+            nombre: Carlos
+            apellido: Arancibia
+            correo: carancibia@mail.com
+        
