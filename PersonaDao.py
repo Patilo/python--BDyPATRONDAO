@@ -70,7 +70,7 @@ class PersonaDAO:
 if __name__ == '__main__':
 
     # Insertar un registro
-    persona1 = Persona(nombre='Carlos', apellido='Arancibia', correo='carancibia@mail.com')
+    persona1 = Persona(nombre='Usuario1', apellido='apellido1', correo='user@mail.com')
     personas_insertadas = PersonaDAO.insertar(persona1)
     log.debug(f'Personas insertadas: {personas_insertadas}')
 
